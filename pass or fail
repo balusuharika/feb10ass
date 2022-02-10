@@ -1,0 +1,28 @@
+sname="harika"
+srollno=6
+sgroup="BCA"
+print("sname: ",sname)
+print("srollno: ",srollno)
+print("sgroup: ",sgroup)
+s1=int(input("account marks: "))
+s2=int(input("operating system marks: "))
+s3=int(input("java marks: "))
+s4=int(input("english marks: "))
+s5=int(input("hindi marks: "))
+s6=int(input("online business: "))
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35:
+    print("pass")
+else:
+    print("fail")
+
+output:
+sname:  harika
+srollno:  6
+sgroup:  BCA
+account marks: 89
+operating system marks: 78
+java marks: 95
+english marks: 67
+hindi marks: 80
+online business: 80
+pass
